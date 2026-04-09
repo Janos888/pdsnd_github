@@ -7,9 +7,11 @@ import numpy as np
 # It outputs statistics about travel times, stations,
 # trip duration, and users.
 
-CITY_DATA = { 'chicago': 'chicago.csv',
-              'new york city': 'new_york_city.csv',
-              'washington': 'washington.csv' }
+CITY_DATA = {
+    'chicago': 'chicago.csv',
+    'new york city': 'new_york_city.csv',
+    'washington': 'washington.csv'
+    }
 
 def get_filters():
     """
@@ -58,9 +60,7 @@ def time_stats(df):
 
     # display the most common month
 
-
     # display the most common day of week
-
 
     # display the most common start hour
 
