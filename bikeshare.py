@@ -2,6 +2,11 @@ import time
 import pandas as pd
 import numpy as np
 
+# This script allows users to explore US bikeshare data
+# for selected cities and time filters (month and day).
+# It outputs statistics about travel times, stations,
+# trip duration, and users.
+
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
